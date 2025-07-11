@@ -31,6 +31,7 @@ else
 #	echo "CSV file '$CSV_FILE' found. Proceeding with processing."
 	echo ""
 	echo "-----------------------------------"
+	echo ""
 fi
 
 # Read the CSV file line by line (skip the header row)

@@ -19,9 +19,9 @@ function curl_check_url ()
 
 	# print out a message to the user based on the HTTP status code
 	if [ "$HTTP_STATUS" -eq 200 ]; then
-		echo "PASS: Application Request Successful (HTTP 200 OK) for \"$APP_NAME\" ($URL)"
+		echo "PASS: Application Request Successful (HTTP 200) for \"$APP_NAME\" ($URL)"
 	elif [ "$HTTP_STATUS" -eq 302 ]; then
-		echo "PASS: Application Up and Redirecting, likely due to APEX login redirection (HTTP 302 OK) for \"$APP_NAME\" ($URL)"
+		echo "PASS: Application Up and Redirecting, likely due to APEX login redirection (HTTP 302) for \"$APP_NAME\" ($URL)"
 	elif [ "$HTTP_STATUS" -ge 400 ]; then
 		echo "FAIL: Request failed with client or server error (HTTP $HTTP_STATUS) for \"$APP_NAME\" ($URL)."
 	else
