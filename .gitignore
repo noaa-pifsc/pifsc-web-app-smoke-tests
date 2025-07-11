@@ -1,0 +1,5 @@
+/docker/scripts/app_list/app_list.xlsx
+/docker/scripts/app_list/app_list.csv
+/docker/scripts/app_list/app_list.dev.csv
+/docker/scripts/app_list/app_list.prod.csv
+/docker/scripts/app_list/app_list.qa.csv
