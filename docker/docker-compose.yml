@@ -1,0 +1,11 @@
+services:
+  smoke_test_app:
+    build:
+      context: .
+    image: pifsc/smoke_test_app:latest
+    container_name: smoke_test_app
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+        max-file: "1"

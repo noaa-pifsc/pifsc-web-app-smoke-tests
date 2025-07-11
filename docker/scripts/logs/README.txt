@@ -1,0 +1,1 @@
+This folder contains log files generated each time the check_app_urls.sh script is run
