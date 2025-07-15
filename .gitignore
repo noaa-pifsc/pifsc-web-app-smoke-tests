@@ -3,3 +3,6 @@
 /docker/scripts/app_list/app_list.dev.csv
 /docker/scripts/app_list/app_list.prod.csv
 /docker/scripts/app_list/app_list.qa.csv
+
+/docker/scripts/logs/*
+!/docker/scripts/logs/README.txt
